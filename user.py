@@ -1,12 +1,13 @@
 from datetime import datetime
 
 class User :
-    def __init__(self, name, email, address, account_type, bank):
+    def __init__(self, name, email, address, account_type, passward, bank):
         self.account_no = None
         self.name = name 
         self.email = email
         self.address = address
         self.account_type = account_type
+        self.passward = passward
         self.bank = bank
         self.balance = 0
         self.loan = 0
